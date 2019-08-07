@@ -83,6 +83,16 @@
     
 
 
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLClass_e6188545_79ed_4123_be2f_35757c5ffd72 -->
+
+    <owl:Class rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLClass_e6188545_79ed_4123_be2f_35757c5ffd72">
+        <rdfs:subClassOf rdf:resource="http://www.cognate-ai.com/ontologies/writing-annotations#Schema"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.teachingenglish.org.uk/sites/teacheng/files/code.pdf</rdfs:comment>
+        <rdfs:label xml:lang="en">British-Council-2007</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.cognate-ai.com/ontologies/writing-annotations#Adjective -->
 
     <owl:Class rdf:about="http://www.cognate-ai.com/ontologies/writing-annotations#Adjective">
@@ -166,7 +176,7 @@
     <!-- http://www.cognate-ai.com/ontologies/writing-annotations#Nicholls-2003 -->
 
     <owl:Class rdf:about="http://www.cognate-ai.com/ontologies/writing-annotations#Nicholls-2003">
-        <rdfs:subClassOf rdf:resource="http://www.cognate-ai.com/ontologies/writing-annotations#schema"/>
+        <rdfs:subClassOf rdf:resource="http://www.cognate-ai.com/ontologies/writing-annotations#Schema"/>
     </owl:Class>
     
 
@@ -247,6 +257,12 @@
     
 
 
+    <!-- http://www.cognate-ai.com/ontologies/writing-annotations#Schema -->
+
+    <owl:Class rdf:about="http://www.cognate-ai.com/ontologies/writing-annotations#Schema"/>
+    
+
+
     <!-- http://www.cognate-ai.com/ontologies/writing-annotations#Unnecessary -->
 
     <owl:Class rdf:about="http://www.cognate-ai.com/ontologies/writing-annotations#Unnecessary">
@@ -271,12 +287,6 @@
     
 
 
-    <!-- http://www.cognate-ai.com/ontologies/writing-annotations#schema -->
-
-    <owl:Class rdf:about="http://www.cognate-ai.com/ontologies/writing-annotations#schema"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -285,6 +295,126 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_11f13020_1997_40e8_bf8d_8dba7e576098 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_11f13020_1997_40e8_bf8d_8dba7e576098">
+        <rdf:type rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLClass_e6188545_79ed_4123_be2f_35757c5ffd72"/>
+        <rdfs:comment>Wrong word</rdfs:comment>
+        <rdfs:label xml:lang="en">WW</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_1fde1427_106c_43dd_a38a_3870e096dcdd -->
+
+    <owl:NamedIndividual rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_1fde1427_106c_43dd_a38a_3870e096dcdd">
+        <rdf:type rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLClass_e6188545_79ed_4123_be2f_35757c5ffd72"/>
+        <rdfs:comment>Wrong order</rdfs:comment>
+        <rdfs:label xml:lang="en">WO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_2ce0ed53_97bc_4b54_8040_4bf57f7b20ad -->
+
+    <owl:NamedIndividual rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_2ce0ed53_97bc_4b54_8040_4bf57f7b20ad">
+        <rdf:type rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLClass_e6188545_79ed_4123_be2f_35757c5ffd72"/>
+        <rdfs:comment>Not clear</rdfs:comment>
+        <rdfs:label xml:lang="en">?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_347f06a9_d3db_4937_b1c0_09153b153272 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_347f06a9_d3db_4937_b1c0_09153b153272">
+        <rdf:type rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLClass_e6188545_79ed_4123_be2f_35757c5ffd72"/>
+        <rdfs:comment>Extra word</rdfs:comment>
+        <rdfs:label xml:lang="en">X</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_5aa333b1_b094_4816_8387_63b2b7aa5895 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_5aa333b1_b094_4816_8387_63b2b7aa5895">
+        <rdf:type rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLClass_e6188545_79ed_4123_be2f_35757c5ffd72"/>
+        <rdfs:comment>Register</rdfs:comment>
+        <rdfs:label xml:lang="en">R</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_7b4fd0ba_c0f1_4b5a_9abc_c21a19e97573 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_7b4fd0ba_c0f1_4b5a_9abc_c21a19e97573">
+        <rdf:type rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLClass_e6188545_79ed_4123_be2f_35757c5ffd72"/>
+        <rdfs:comment>Silly mistake</rdfs:comment>
+        <rdfs:label xml:lang="en">!</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_932f626a_6a20_425d_a966_d59e630a16b1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_932f626a_6a20_425d_a966_d59e630a16b1">
+        <rdf:type rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLClass_e6188545_79ed_4123_be2f_35757c5ffd72"/>
+        <rdfs:comment>Wrong time</rdfs:comment>
+        <rdfs:label xml:lang="en">WT</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_ac753029_1286_497e_b695_463b5b83f60b -->
+
+    <owl:NamedIndividual rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_ac753029_1286_497e_b695_463b5b83f60b">
+        <rdf:type rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLClass_e6188545_79ed_4123_be2f_35757c5ffd72"/>
+        <rdfs:comment>Spelling</rdfs:comment>
+        <rdfs:label xml:lang="en">SP</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_d49f04a1_88fc_4baa_b514_3e16d98c666f -->
+
+    <owl:NamedIndividual rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_d49f04a1_88fc_4baa_b514_3e16d98c666f">
+        <rdf:type rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLClass_e6188545_79ed_4123_be2f_35757c5ffd72"/>
+        <rdfs:comment>Missing word</rdfs:comment>
+        <rdfs:label xml:lang="en">M</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_f34480f6_0589_4669_8160_a66905137c57 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_f34480f6_0589_4669_8160_a66905137c57">
+        <rdf:type rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLClass_e6188545_79ed_4123_be2f_35757c5ffd72"/>
+        <rdfs:comment>Punctuation</rdfs:comment>
+        <rdfs:label xml:lang="en">P</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_f4850223_4e81_410b_8b07_7aba8b7c39a9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_f4850223_4e81_410b_8b07_7aba8b7c39a9">
+        <rdf:type rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLClass_e6188545_79ed_4123_be2f_35757c5ffd72"/>
+        <rdfs:comment>Try rewriting</rdfs:comment>
+        <rdfs:label xml:lang="en">RW</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_f9762013_c13d_411c_a473_462b19f8d9f7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLNamedIndividual_f9762013_c13d_411c_a473_462b19f8d9f7">
+        <rdf:type rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLClass_e6188545_79ed_4123_be2f_35757c5ffd72"/>
+        <rdfs:comment>Wrong form</rdfs:comment>
+        <rdfs:label xml:lang="en">WF</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
