@@ -6,7 +6,8 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:writing-annotations="http://www.cognate-ai.com/ontologies/writing-annotations#">
+     xmlns:writing-annotations="http://www.cognate-ai.com/ontologies/writing-annotations#"
+     xmlns:elt-writing-annotations="http://www.cognate-ai.com/ontologies/elt-writing-annotations#">
     <owl:Ontology rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations">
         <owl:versionIRI rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations"/>
     </owl:Ontology>
@@ -31,6 +32,43 @@
         <rdfs:range rdf:resource="http://www.cognate-ai.com/ontologies/writing-annotations#Error-types"/>
         <rdfs:label xml:lang="en">has_error</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLDataProperty_8a1845f5_8774_4896_8cf7_5d96250ff291 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLDataProperty_8a1845f5_8774_4896_8cf7_5d96250ff291">
+        <rdfs:label xml:lang="en">error-metadata</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLDataProperty_8d6add44_578c_4f75_93f8_98901d0be62a -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLDataProperty_8d6add44_578c_4f75_93f8_98901d0be62a">
+        <rdfs:subPropertyOf rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLDataProperty_8a1845f5_8774_4896_8cf7_5d96250ff291"/>
+        <rdfs:label xml:lang="en">error-glossary</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLDataProperty_a01c308d_3747_4653_b961_6a6c451ad8f7 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLDataProperty_a01c308d_3747_4653_b961_6a6c451ad8f7">
+        <rdfs:subPropertyOf rdf:resource="http://www.cognate-ai.com/ontologies/elt-writing-annotations#OWLDataProperty_8a1845f5_8774_4896_8cf7_5d96250ff291"/>
+        <rdfs:label xml:lang="en">error-example</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -583,6 +621,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.cognate-ai.com/ontologies/writing-annotations#OWLNamedIndividual_67296855_c68b_49f4_86f6_a1da7e2ae732">
         <rdf:type rdf:resource="http://www.cognate-ai.com/ontologies/writing-annotations#OWLClass_0eefb0c7_d3b4_4fa4_87b9_482cc2ce7745"/>
+        <elt-writing-annotations:OWLDataProperty_a01c308d_3747_4653_b961_6a6c451ad8f7 rdf:parseType="Literal"><tag>I walks home.</tag></elt-writing-annotations:OWLDataProperty_a01c308d_3747_4653_b961_6a6c451ad8f7>
         <rdfs:comment>Agreement error</rdfs:comment>
         <rdfs:label xml:lang="en">AG</rdfs:label>
     </owl:NamedIndividual>
